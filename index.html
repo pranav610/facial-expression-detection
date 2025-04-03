@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Facial Expression Detection</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    video {
+      width: 360px;
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    canvas {
+      border: none; /* Optional: Remove border for cleaner look */
+    }
+  </style>
+</head>
+<body>
+  <!-- Add ten video elements -->
+  <video id="video1" autoplay muted></video>
+  <video id="video2" autoplay muted></video>
+  <video id="video3" autoplay muted></video>
+  <video id="video4" autoplay muted></video>
+  <video id="video5" autoplay muted></video>
+  <video id="video6" autoplay muted></video>
+  <video id="video7" autoplay muted></video>
+  <video id="video8" autoplay muted></video>
+  <video id="video9" autoplay muted></video>
+  <video id="video10" autoplay muted></video>
+</body>
+</html>
